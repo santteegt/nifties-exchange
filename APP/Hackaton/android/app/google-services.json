@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "47465784607",
+    "firebase_url": "https://smartpass-14488.firebaseio.com",
+    "project_id": "smartpass-14488",
+    "storage_bucket": "smartpass-14488.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47465784607:android:576621e593a39f12",
+        "android_client_info": {
+          "package_name": "com.xellcoders.smartpass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47465784607-alh044slqd1dp0k3s28ib1fo3m0l05il.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xellcoders.smartpass",
+            "certificate_hash": "da3a8404bb1b1182829747a140a70aea0a44b8f5"
+          }
+        },
+        {
+          "client_id": "47465784607-m6c7r0clu6m4mvmbi4rce2esi7qc0r2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0-yosoGkBDo6hWyoPz0AugsIOjGh0QKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47465784607-m6c7r0clu6m4mvmbi4rce2esi7qc0r2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+framework module fast_qr_reader_view {
+  umbrella header "fast_qr_reader_view-umbrella.h"
+
+  export *
+  module * { export * }
+}

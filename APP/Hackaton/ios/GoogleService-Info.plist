@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>47465784607-135qar6ujdh3op6qba1sf4hiep9k080h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.47465784607-135qar6ujdh3op6qba1sf4hiep9k080h</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>47465784607-alh044slqd1dp0k3s28ib1fo3m0l05il.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyALVefV3cY163bsTDe1AsgAaunN8V0Yy74</string>
+	<key>GCM_SENDER_ID</key>
+	<string>47465784607</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.xellcoders.Smartpass</string>
+	<key>PROJECT_ID</key>
+	<string>smartpass-14488</string>
+	<key>STORAGE_BUCKET</key>
+	<string>smartpass-14488.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:47465784607:ios:db12e689ef1767d6</string>
+	<key>DATABASE_URL</key>
+	<string>https://smartpass-14488.firebaseio.com</string>
+</dict>
+</plist>
