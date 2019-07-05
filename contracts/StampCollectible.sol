@@ -12,12 +12,14 @@ contract StampCollectible is ERC721MetadataMintable {
         uint256 clonedFrom;
     }
 
+    uint256 public totalMinted;
+
     Stamp[] public stamps;
 
     uint256 public maxClones;
 
     uint8 constant private PRICEDEPTH = 255;
-    uint256 constant private COSTMULTIPLIER = 10000000000;
+    uint256 constant private COSTMULTIPLIER = 1000000000000;
 
     mapping (address => mapping (uint256 => uint256)) public balances;
 
@@ -88,6 +90,7 @@ contract StampCollectible is ERC721MetadataMintable {
         });
         uint256 tokenId = stamps.push(collectible) - 1;
         emit MintedStamp(tokenId, msg.sender, uint256(_priceFinney));
+        totalMinted++;
         return mintWithTokenURI(msg.sender, tokenId, _tokenURI);
     }
 
@@ -121,5 +124,8 @@ contract StampCollectible is ERC721MetadataMintable {
         emit BurnedStamp(_tokenId, msg.sender);
         msg.sender.transfer(payout);
         return true;
+    }
+
+    function () external payable {
     }
 }
